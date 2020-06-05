@@ -19,13 +19,14 @@ namespace StressManagment
         string _apiKey = "XMFXHc_XEQ2i-9T_Y_n_KC2q_Ek3PiiIQte0jJAw0b46";
         string _watsonUrl = "https://api.us-south.assistant.watson.cloud.ibm.com/instances/3946e7ab-ce52-40e7-96dc-47566261f6a5";
         string _assistantId = "2fb81788-042b-4df1-8a99-d3a6b6593270";
-        string _assistanceUrl = "https://api.us-south.assistant.watson.cloud.ibm.com/instances/3946e7ab-ce52-40e7-96dc-47566261f6a5/v2/assistants/2fb81788-042b-4df1-8a99-d3a6b6593270/sessions";
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+
+
+        public void CallWebAssistant()
         {
             var versionDate = "2020-06-05";// string.Format("YYYY-MM-DD",DateTime.Now.ToShortDateString());
             IamAuthenticator authenticator = new IamAuthenticator(
@@ -33,7 +34,7 @@ namespace StressManagment
             var service = new AssistantService(versionDate, authenticator);
             service.SetServiceUrl(_watsonUrl);
             service.DisableSslVerification(true);
-          var sessionResult =   service.CreateSession(_assistantId);
+            var sessionResult = service.CreateSession(_assistantId);
             var sessionId = sessionResult.Result.SessionId;
 
             var result = service.Message(_assistantId, sessionId, input: new IBM.Watson.Assistant.v2.Model.MessageInput()
@@ -41,9 +42,8 @@ namespace StressManagment
                 Text = "hello"
             });
 
-           Console.WriteLine( result.Response); 
 
-
+            Console.WriteLine(result.Response);
         }
 
 
