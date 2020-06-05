@@ -17,9 +17,9 @@ namespace StressManagementBot
     {
 
 
-        string _apiKey = "XMFXHc_XEQ2i-9T_Y_n_KC2q_Ek3PiiIQte0jJAw0b46";
-        string _watsonUrl = "https://api.us-south.assistant.watson.cloud.ibm.com/instances/3946e7ab-ce52-40e7-96dc-47566261f6a5";
-        string _assistantId = "2fb81788-042b-4df1-8a99-d3a6b6593270";
+        string _apiKey = "6bg6hZ1GF2Z-2EQaL1xDmp2ZAm5k1VG77BGxeWMQnyU0";
+        string _watsonUrl = "https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/f0e8fb68-e82e-489f-96cf-0c996ed4d390";
+        string _assistantId = "8cc45599-f247-474c-84c9-8fbe70f2cc6d";
 
 
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
