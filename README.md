@@ -16,7 +16,7 @@
 
 + [Akanksha][ak_github]
 + [Deepika Korumilli][dk_github]
-+ [Poonam Gala][pg_github]
++ [Poonam Gala]
 + [Punita Verma][pv_github]
 + [Simbile Malathi][sm_github]
 
