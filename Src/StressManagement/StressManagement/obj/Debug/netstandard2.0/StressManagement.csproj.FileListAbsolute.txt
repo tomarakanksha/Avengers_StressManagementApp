@@ -1,0 +1,13 @@
+C:\Hackathon\StressManagement\StressManagement\bin\Debug\netstandard2.0\StressManagement.deps.json
+C:\Hackathon\StressManagement\StressManagement\bin\Debug\netstandard2.0\StressManagement.dll
+C:\Hackathon\StressManagement\StressManagement\bin\Debug\netstandard2.0\ref\StressManagement.dll
+C:\Hackathon\StressManagement\StressManagement\bin\Debug\netstandard2.0\StressManagement.pdb
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\StressManagement.csprojAssemblyReference.cache
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\XAML Implementation\InAppBrowserXaml.xaml.g.cs
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\XAML Implementation\LinkToInAppXaml.xaml.g.cs
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\StressManagement.AssemblyInfoInputs.cache
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\StressManagement.AssemblyInfo.cs
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\StressManagement.dll
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\ref\StressManagement.dll
+C:\Hackathon\StressManagement\StressManagement\obj\Debug\netstandard2.0\StressManagement.pdb
