@@ -8,7 +8,8 @@
 
  📦 Prerequisites
  
- - The framework used to build this application is .NET Core 2.1.
+ - Visual Studio 2017/19
+ - Xamarian.Forums
  - Install the nuget package of IBM.Watson.Assistant.v2 for connecting to the IBM Watson Assistant.
  - Download BotFramework-Emulator-4.5.2-windows-setup.exe to check the connection to your bot.
  
