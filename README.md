@@ -1,4 +1,4 @@
-# StressManagementApp
+# Stress Management Application
 
  - tool for family and friends to stay in touch with their elderly or disabled young relatives as well as care personnel. 
  - A bot to engage people with some sessions on physical activities like yoga and have fun with each exercise to reduce stress anxiety. 
